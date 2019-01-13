@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie ie9" lang="en"><![endif]-->
+
+<!--[if gte IE 10 | !IE ]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Capital Market in China</title>
+
+  <!-- Bootstrap 3 core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- local testing
+  <script src="./assets/js/html5shiv.min.js"></script>
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <!-- Bootstrap 3 CSS for IE8 -->
+  <!--[if lt IE 9]><link href="./assets/css/bootstrap-ie8.min.css" rel="stylesheet"><![endif]-->
+
+  <!-- Custom styles for this template -->
+  <link href="./assets/css/theme.css" rel="stylesheet">
+
+  <link href="./assets/css/index.css" rel="stylesheet">
+
+  <!-- Synthax highlighter -->
+  <link href="./assets/css/prism.css" rel="stylesheet">
+
+
+  <!-- The automated browser upgrade service provided by Financial Times.
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,getComputedStyle|gated"></script> -->
+  <!-- Just use it for all browsers on production websites.  -->
+
+  <!-- Native JavaScript for Bootstrap 3 Polyfill -->
+  <!-- <script src="https://cdn.jsdelivr.net/bootstrap.native/2.0.13/polyfill.min.js"></script> -->
+
+  <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  <script type="text/javascript" src="./assets/js/tableau.js"></script>
+
+  <script src="./dist/polyfill.js"></script>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div id="main-container" class="container">
+    <div class="row">
+        <div id="side-nav" class="col-sm-2">
+                <div class="col-2">
+                    <div class="nav-title">
+                      ACCT003 – Capital Markets in China
+                    </div>
+                    <div class="panel panel-default sidebar-menu">
+    
+                        <div class="panel-body">
+                            <ul class="nav" id="navList">
+                                    <!--<li><a >Road Map</a></li>-->
+                                    <li><a onClick="processViewSwitch('Average Age', event)" class="active">Average Age</a></li>
+                                    <li><a onClick="processViewSwitch('Board Supervisor', event)">Board Supervisor</a></li>
+                                    <li><a onClick="processViewSwitch('Educational Background', event)">Educational Background</a></li>
+                                    <li><a onClick="processViewSwitch('Ownership Concentration', event)">Ownership Concentration</a></li>
+                                    <li><a onClick="processViewSwitch('Stock Exchange', event)">Stock Exchange</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            <!--<ul id="nav-scrollspy" class="nav nav-stacked" data-spy="affix" data-target="#use" data-offset-bottom="120">
+              <li><a href="#myCarousel">Download</a></li>
+              <li class=""><a href="#use">Read First</a></li>
+            </ul>-->
+          </div>
+      <div id="container-content-column" class="col-sm-10" data-spy="scroll" data-target="#side-nav">
+          <div class="tab-content" id="nav-tabContent">
+         </div>
+        <section id="use" class="col-sm-9">
+            <h4 id="title">How many domestic listed companies in China
+                from 2008 to 2018?</h4>
+          <div id='myViz' width="80%"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- highlighter -->
+  <script src="./assets/js/prism.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="./dist/bootstrap-native.js"></script>
+  <script type="text/javascript" src="./assets/js/scripts.js"></script>
+  </body>
+</html>

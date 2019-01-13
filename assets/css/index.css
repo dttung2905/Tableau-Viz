@@ -1,0 +1,22 @@
+#navList .active {
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#side-nav {
+    margin-top: 10px !important;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+.nav-title {
+    color: #111;
+    font-weight: bold;
+    margin-bottom:10px;
+}
