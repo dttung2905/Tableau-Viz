@@ -9,8 +9,8 @@ window.onload= function() {
     var options = {
         hideToolbar: true,
         hideTabs: true,
-        width: "1282px",
-        height: "886px",
+        width: "1100px",
+        height: "800px",
     };
     viz = new tableau.Viz(vizDiv, vizURL, options);
 };
