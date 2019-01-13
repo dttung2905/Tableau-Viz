@@ -20,3 +20,17 @@ h3 {
     font-weight: bold;
     margin-bottom:10px;
 }
+
+
+@media screen and (min-width: 320px) {
+  #main-container {
+      width: 60%;  
+  }
+}
+
+@media screen and (min-width: 600px) {
+   
+  #main-container {
+      width: 100%;
+  }
+}
